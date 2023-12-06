@@ -3,7 +3,7 @@ package com.BeactEat.demo
 import jakarta.persistence.*
 
 @Entity
-@Table(name = "app_USer",schema = "beacher_profile")
+@Table(name = "app_USer",schema = "public")
 data class UserProfile(
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

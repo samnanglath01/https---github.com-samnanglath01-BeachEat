@@ -5,7 +5,7 @@ import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 
 @RestController
-@CrossOrigin(origins = ["http://localhost:5500"])
+@CrossOrigin(origins = ["*"])
 @RequestMapping("/add")
 class UserProfileController (private val userProfileService: UserProfileService) {
 
